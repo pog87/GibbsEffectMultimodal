@@ -1,0 +1,52 @@
+The walnut.nii.gz dataset has been taken from www.voreen.org and has been converted to NIfTI format by Alexander Wiebel. The walnut_masked.nii.gz dataset has been created from the segmentation information on www.voreen.org using OpenWalnut.
+
+See original copyright notices below for more information.
+
+
+---------------------------
+Original copyright notice:
+
+# CT scan of a walnut, conducted on a small-animal CT scanner.
+# Data set courtesy of European Institut of Molecular Imaging (EIMI)
+# Muenster, Germany (http://www.uni-muenster.de/EIMI/)
+# Please contact the Voreen team (www.voreen.org) for obtaining the full-resolution scan.
+ObjectFileName:	walnut.raw
+Resolution:	    400 296 352
+SliceThickness:	1 1 1
+Format:         USHORT
+ObjectModel:	I
+
+----------------------------
+Contents of README.txt for segmentation of walnut dataset
+
+This archive contains probabilistic segmentations as well as binary masks of
+four segments of the Voreen walnut dataset (http://www.voreen.org/files/walnut.zip):
+ * complete nut
+ * outer nutshell
+ * core (enclosing the seed)
+ * seed
+ 
+Additionally, the "walnut-segmentation" volume stores the complete segmentation by
+assigning the intensity values 1 till 4 to the four segments.
+
+The walnut data set is courtesy of European Institut of Molecular Imaging (EIMI),
+Muenster, Germany (http://www.uni-muenster.de/EIMI/).
+
+The segmentations have been obtained with our guided Random Walker approach:
+  J.-S. Prassni, T. Ropinski, and K. Hinrichs: Uncertainty-Aware Guided Volume Segmentation.
+  IEEE TVCG, 16(6): 1358-1365, 2010.
+
+You may use the segmentations freely, but please include the above reference, 
+if you use them in scientific work.
+
+The Voreen Team
+www.voreen.org
+
+------------------
+Contents of walnut-core-mask.raw
+
+ObjectFileName:	walnut-core-mask.raw
+Resolution:	400 296 352
+SliceThickness:	1 1 1
+Format:		UCHAR
+ObjectModel:	I
