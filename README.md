@@ -2,7 +2,7 @@
 
 This repo is a companion to the article:
 
-***TBD***
+Oversampling errors in multimodal medical imaging are due to the Gibbs effect [preprint](https://www.researchgate.net/publication/349569397_Oversampling_errors_in_multimodal_medical_imaging_are_due_to_the_Gibbs_effect)
 
 In order to repeat the experiments presented in such work you must have installed:
 
