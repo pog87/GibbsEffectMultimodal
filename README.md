@@ -23,3 +23,4 @@ To compute the errors you can run the `get_errors_`x`.pynb` notebooks, which (pr
  identical to the ones already in this repo.
 
 The notebook "get_errors_pointwise_oversampling_error_bound_verify.ipynb" verifies the error bound given in the paper.
+THe notebook "Computing_Constants.ipynb" contains the (analytical) computation of the constants for the chosen basis functions.
